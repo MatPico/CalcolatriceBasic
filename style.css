@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4c4c4;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 1);
+    width: 400px;
+    text-align: center;
+}
+
+.schermo{
+    font-family: 'Courier';
+    color: black;
+    font-weight: bold;
+    font-size: 180%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 23px;
+    margin-top: 2px;
+    background-color: rgb(145, 252, 252);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border: black solid 1px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+button {
+    text-align: center;
+    padding: 15px 20px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: #4a5e4b;
+    color: rgb(216, 216, 216);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border: black solid 0.5px;
+}
+
+#n0 {
+    width: 40%;
+    background-color: #0055ff;
+}
+
+#n00 {
+    background-color: #0055ff;
+}
+
+#virgola{
+    background-color: #0055ff;
+}
+
+#moltiplicazione {
+    background-color: #ed8a00;
+}
+
+#divisione {
+    background-color: #ed8a00;
+}
+
+#percentuale {
+    background-color: #ed8a00;
+}
+
+#addizione {
+    background-color: #ed8a00;
+}
+
+#sottrazione {
+    background-color: #ed8a00;
+}
+
+#cancella{
+    background-color: #ce0000;
+}
+
+#invio{
+    background-color: #ce0000;
+    width: 25%;
+}
